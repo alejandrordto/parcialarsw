@@ -31,7 +31,7 @@ public class treahd implements Runnable {
     @Override
     public void run() {
         try {
-            Thread.sleep(60);
+            Thread.sleep(60000);
         } catch (InterruptedException ex) {
             Logger.getLogger(treahd.class.getName()).log(Level.SEVERE, null, ex);
         }
